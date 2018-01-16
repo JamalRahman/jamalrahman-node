@@ -52,6 +52,7 @@
 /*------------PROJECTS-----------------*/
 #projects{
 	color: white;
+   background-color: #eb4646;
 }
 .gridSquare h2{
 	margin-bottom: 1em;
@@ -152,7 +153,6 @@ transition:all .4s linear;
 
 #lastGridSquare{
 	line-height: 20em;
-	background-color: #b1b1b1;
 	color:white;
 }
 

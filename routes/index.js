@@ -4,12 +4,12 @@ var router = express.Router();
 var projects = [
    {
       name: "Swarm",
-      link: "",
+      link: "https://jamalrahman.co.uk/swarm",
       description: "Swarm is a visualisation of the Ant Colony Optimisation algorithm. Watch how a colony of agents work together to solve a pathfinding problem in real time!"
    },
    {
       name: "Memescraper",
-      link: "https://memescraper.jamalrahman.co.uk",
+      link: "https://jamalrahman.co.uk/memescraper",
       image: "../images/splash-memescraper.png",
       description:"Memescraper is the desktop application that mass-downloads reddit content.<br/>Choose your subreddit, choose how many images you want to download and go!"
 
