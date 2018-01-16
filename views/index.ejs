@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang='en'>
+<head>
+   <% include head %>
+   <link rel='stylesheet' href='../stylesheets/index.css' />
+   <script src="../javascripts/jquery-2.1.4.min.js"></script>
+   <script src="../javascripts/index.js"></script>
+</head>
+<body>
+   <div class="page">
+      <div class="page-content">
+         <div class="container" id="frontPage">
+            <div id="main">
+               <div id="text">
+                  <div id="maintext"><span
+                     class="typedText"></span><span
+                     class="cursor">|</span>
+                  </div>
+                  <div id="subtext"><span class="typedText"></span></div>
+               </div>
+
+               <div class="centreRibbon">
+                  <span class="slashSeparator">/</span>
+                  <a class="redLink" href="mailto:jamalrahman95@gmail.com">
+                     <i class="fa fa-envelope"></i> contact
+                  </a>
+                  <span class="slashSeparator">/</span>
+                  <a class="redLink" href="">
+                     <i class="fa fa-pencil-square"></i> blog
+                  </a>
+                  <span class="slashSeparator">/</span>
+                  <a class="redLink" href="https://twitter.com/jamalrahman">
+                     <i class="fa fa-twitter"></i> twitter
+                  </a>
+                  <span class="slashSeparator">/</span>
+               </div>
+
+            </div>
+            <div id="introParagraph">
+               <p>
+                  My name is <strong>Jamal Rahman</strong>, I'm a <strong>software</strong> developer and a Computer Science student at the University of Birmingham.
+               </br>
+                  I'm an avid fan of Nature Inspired Computing and a follower of FinTech.
+               </br>
+                  View my portfolio of <a href="#projects" class="redLink smoothScroll">projects</a> or read more <a href="#about" class="redLink smoothScroll">about me.</a>
+               </p>
+            </div>
+         </div>
+
+         <div class="container-fluid" id="projects">
+            <div class="gridWrapper row-fluid">
+
+               <% projects.forEach(function(project){ %>
+                  <div class="gridSquare col-md-4 col-sm-6">
+                     <div class="gridBackground"  style="background-image: url(<%= project.image %>)"></div>
+                     <div class="gridOverlay">
+                        <div class="overlayContent">
+                           <h2><%= project.name %></h2>
+
+                           <p>
+                              <%- project.description %>
+                           </p>
+                        </div>
+
+                        <a class="gridLink" href="<%= project.link %>">
+                           Go to project
+                        </a>
+                     </div>
+                  </div>
+               <% }); %>
+
+               <div class="gridSquare col-md-4 col-sm-6" id="lastGridSquare">
+                  More projects coming soon...
+               </div>
+            </div>
+         </div>
+
+         <div class="container" id="about">
+
+            <article class="content">
+               <h1>
+                  ABOUT ME
+               </h1>
+               <div class="lineBreak"></div>
+               <div class="avatar">
+                  <img src="../images/avatar.jpg" alt="Photo of Jamal Rahman"/>
+               </div>
+               <br/>
+               <p>
+                  Hi, I'm Jamal. Welcome to my corner of the web.
+
+               </p>
+               <p>
+                  I'm an MSci Computer Science student at the University of Birmingham in the UK.
+               </p>
+               <p>
+                  Outside of studying, I often work on side projects of varying scope. This website will catalogue my pursuits in computing, from web development to scientific projects.
+               </p>
+               <p>
+                  My resume offers a more detailed statement on my professional capabilities, and is available upon request.
+               </p>
+
+               <p>
+                  <strong>You can get in touch with me at jamalrahman95@gmail.com</strong>
+               </p>
+            </article>
+         </div>
+      </div>
+      <% include footer %>
+   </div>
+</body>
+</html>

@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang='en'>
+<head>
+   <% include head %>
+   <script src="../javascripts/jquery-2.1.4.min.js"></script>
+   <link type="text/css" rel="stylesheet" href="../stylesheets/dotd.css"/>
+
+</head>
+<body>
+   <div class="page">
+      <div class="page-content">
+         <div class="header">
+            <h1> Dog of the Day</h1>
+
+            <div class="lineBreak"></div>
+            </div>
+
+            <div class="imgcontainer">
+               <img src="../images/dotd.jpg?v= <%= date %>"/>
+            </div>
+
+            <p> Discuss this dog <a class="redLink" href="<%= commentUrl %>">on reddit.</a></p>
+      </div>
+      <% include footer %>
+   </div>
+</body>
+</html>

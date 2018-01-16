@@ -1,0 +1,30 @@
+#footer{
+    position: absolute;
+    bottom: 0;
+}
+.main{
+    top: 50%;
+    font-family: "Roboto Slab",serif;
+    font-weight: bold;
+    position: relative;
+    transform: translateY(50%);
+    font-size: 2em;
+}
+#number{
+    font-size: 5em;
+    color: #eb4646;
+}
+
+#logo a{
+    display: inline-block;
+    height: 3em;
+    width: 3em;
+    background-image: url(../images/logo.png);
+    background-size:contain;
+}
+
+#logo{
+    height:4em;
+    width: 4em;
+    margin: auto;
+}
