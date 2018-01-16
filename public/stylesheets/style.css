@@ -18,6 +18,10 @@ a{
 a:hover{
     color: #417889;
 }
+a:focus{
+	color:inherit;
+	text-decoration: inherit;
+}
 
 .redLink:hover{
     background-color: #fed0d0;
