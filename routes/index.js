@@ -5,7 +5,7 @@ var projects = [
    {
       name: "Swarm",
       link: "https://jamalrahman.co.uk/swarm",
-      description: "Swarm is a visualisation of the Ant Colony Optimisation algorithm. Watch how a colony of agents work together to solve a pathfinding problem in real time!"
+      description: "Swarm is an agent-based-modelling approach to search. Watch a psuedorandomly generated graph traversal problem be solved in real time using swarm intelligent algorithms."
    },
    {
       name: "Memescraper",
