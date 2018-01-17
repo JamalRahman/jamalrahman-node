@@ -1,5 +1,5 @@
 #main{
-   margin-top: 12em;
+   margin-top: 15em;
 }
 #maintext{
     font-size: 3.5em;
@@ -20,7 +20,7 @@
 .centreRibbon{
 	font-size: 1em;
 	font-family: "Roboto Slab";
-   margin: 6em 0 9em 0;
+   margin: 8em 0 18em 0;
 }
 .centreRibbon a{
 	color: #4f4f4f;
@@ -164,6 +164,6 @@ transition:all .4s linear;
 /*---------------------- ABOUT --------------------*/
 
 #about{
-	margin-top: 5em;
-	margin-bottom: 5em;
+	margin-top: 11em;
+	margin-bottom: 10em;
 }

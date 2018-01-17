@@ -87,8 +87,8 @@ em{
 #footer{
     background-color: #4f4f4f;
     color: white;
-    padding-top: 2em;
-    padding-bottom: 2em;
+    padding-top: 1.333em;
+    padding-bottom: 1.333em;
 }
 #footer a{
     color: inherit;
