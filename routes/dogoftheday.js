@@ -16,7 +16,7 @@ router.get('/', function(req, res, next) {
   res.render('dogoftheday', {
      title:"Dog of the Day",
      date:date.getTime(),
-     commentUrl: commentUrl
+     commentUrl: url
   })
 });
 
