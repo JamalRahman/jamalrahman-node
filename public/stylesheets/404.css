@@ -3,11 +3,11 @@
     bottom: 0;
 }
 .main{
-    top: 50%;
+    top: 40%;
     font-family: "Roboto Slab",serif;
     font-weight: bold;
     position: relative;
-    transform: translateY(50%);
+    transform: translateY(40%);
     font-size: 2em;
 }
 #number{
@@ -17,16 +17,17 @@
 
 #logo a{
     display: inline-block;
-    height: 3em;
-    width: 3em;
+    height: 3.5em;
+    width: 3.5em;
     background-image: url(../images/logo.png);
     background-size:contain;
 }
 
 #logo{
-    height:4em;
-    width: 4em;
+    height:3.5em;
+    width: 3.5em;
     margin: auto;
-    -webkit-filter: drop-shadow(0px 0px 3px #222);
-    filter: drop-shadow(0px 1px 4px #222);
+    margin-top: 1em;
+    -webkit-filter: drop-shadow(0px 0px 2px #222);
+    filter: drop-shadow(0px 1px 3px #222);
 }
