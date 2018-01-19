@@ -2,14 +2,19 @@
    margin-top: 18em;
 }
 #maintext{
-    font-size: 3.5em;
+   font-family: "Lato",serif;
+   letter-spacing: 0.15em;
+   font-weight: 700;
+   font-size: 3em;
 }
 
 #subtext{
-    font-size: 1.5em;
+    font-size: 1.3em;
+    font-family: "Libre Baskerville";
+    font-weight: 400;
+    margin-top: 0.1em;
 }
 #text{
-    font-family: "Roboto Slab",serif;
     height: 6.5666em; 	/* maintext plus subtext */
 }
 
@@ -19,17 +24,11 @@
 
 .centreRibbon{
 	font-size: 1.1em;
-	font-family: "Roboto Slab";
+	font-family: "Libre Baskerville";
    margin: 2em 0 16em 0;
 }
 .centreRibbon a{
 	color: #4f4f4f;
-}
-
-
-.centreRibbon a:hover{
-	background-color: #fed0d0;
-	text-decoration: none;
 }
 
 #introParagraph{
@@ -89,7 +88,7 @@ overflow: hidden;
 opacity: 0;
 position: relative;
 bottom: 100%;
-background-color:rgba(0,0,0,0.5);
+background-color:rgba(0,0,0,0.75);
 -webkit-transition:all .27s ease-in-out;
 transition:all .27s ease-in-out;
     -ms-transform: translatey(-1em);
@@ -110,7 +109,7 @@ transition:all .4s linear;
 }
 
 .gridLink{
-	font-family: "Roboto Slab";
+	font-family: "Lato";
 	text-decoration: none;
 	display:inline-block;
 	margin: auto;
@@ -158,9 +157,14 @@ transition:all .4s linear;
 
 .overlayContent{
 	height:80%;
+   font-family: "Lato";
 	overflow: hidden;
 }
 
+.overlayContent h3{
+   font-size: 2.2em;
+   margin-bottom: 0.5em;
+}
 /*---------------------- ABOUT --------------------*/
 
 #about{

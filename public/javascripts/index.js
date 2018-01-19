@@ -4,7 +4,7 @@ $(document).ready(function(){
 
     setInterval('cursorBlink()',400);
 
-    var text = "Jamal Rahman";
+    var text = "JAMAL RAHMAN";
 
     typeSubject = $('#maintext > .typedText');
     type(typeSubject,text,0,function(){

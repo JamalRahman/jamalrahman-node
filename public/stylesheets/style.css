@@ -16,6 +16,7 @@ a{
     color: #417899;
 }
 a:hover{
+   text-decoration: none;
     color: #417889;
 }
 a:focus{
@@ -29,7 +30,8 @@ a:focus{
 }
 
 h1,h2,h3,h4  {
-    font-family: "Roboto Slab", sans-serif;
+    font-family: "Libre Baskerville", sans-serif;
+    font-weight: 500;
 }
 
 em{
@@ -54,6 +56,7 @@ em{
 }
 .content{
     text-align: left;
+    font-family: "Lato";
     box-sizing: border-box;
     width: 100%;
     margin-left: auto;
@@ -100,7 +103,8 @@ em{
 .legal {
    position: relative;
    bottom: 0.5em;
-    font-size: 0.8333em;
+font-family: "Lato";
+   font-size: 0.8333em;
 }
 .footer-social-icons {
     width: 350px;
