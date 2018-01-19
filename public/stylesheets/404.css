@@ -4,7 +4,7 @@
 }
 .main{
     top: 40%;
-    font-family: "Roboto Slab",serif;
+    font-family: "Libre Baskerville",serif;
     font-weight: bold;
     position: relative;
     transform: translateY(40%);
@@ -12,6 +12,7 @@
 }
 #number{
     font-size: 5em;
+    font-family: "Lato";
     color: #eb4646;
 }
 
@@ -29,5 +30,5 @@
     margin: auto;
     margin-top: 1em;
     -webkit-filter: drop-shadow(0px 0px 2px #222);
-    filter: drop-shadow(0px 1px 3px #222);
+    filter: drop-shadow(0px 0.7px 1px #222);
 }
