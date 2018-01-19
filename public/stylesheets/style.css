@@ -5,7 +5,7 @@ html, body{
 }
 
 body{
-    font-family: Arial,Helvetica,sans-serif;
+    font-family: "Lato",Helvetica,sans-serif;
     font-weight: normal;
     text-align: center;
     background-color: #ffffff;
@@ -24,14 +24,17 @@ a:focus{
 	text-decoration: inherit;
 }
 
+.redLink{
+   padding: 1px;
+}
 .redLink:hover{
     background-color: #fed0d0;
     text-decoration: none;
 }
 
 h1,h2,h3,h4  {
-    font-family: "Libre Baskerville", sans-serif;
-    font-weight: 500;
+    font-family: "Lato", sans-serif;
+    font-weight: 700;
 }
 
 em{
@@ -56,7 +59,6 @@ em{
 }
 .content{
     text-align: left;
-    font-family: "Lato";
     box-sizing: border-box;
     width: 100%;
     margin-left: auto;
@@ -65,6 +67,7 @@ em{
     padding-right: 1.25em;
     max-width: 720px;
     padding-bottom: 1.25em;
+    font-family: "Libre Baskerville";
 }
 
 .lineBreak{
