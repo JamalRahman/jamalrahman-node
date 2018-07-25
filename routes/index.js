@@ -3,10 +3,11 @@ var router = express.Router();
 
 var projects = [
    {
-      name: "closedGL",
-      link: "https://jamalrahman.co.uk/closedGL",
+      name: "ClosedGL",
+      link: "https://jamalrahman.co.uk/ClosedGL",
       image: '../images/splash-swarm.png',
-      description: "A 3D rendering engine in pure C++."
+      description: "ClosedGL is a pun on the Open Graphics Library (OpenGL). It is a 3D rendering engine written from scratch in pure C++, as an endeavour in understanding the process behind computer graphics."
+
    },
    {
       name: "Memescraper",
