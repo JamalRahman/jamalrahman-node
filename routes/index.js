@@ -6,7 +6,7 @@ var projects = [
       name: "ClosedGL",
       link: "https://jamalrahman.co.uk/ClosedGL",
       image: '../images/splash-swarm.png',
-      description: "ClosedGL is a pun on the Open Graphics Library (OpenGL). It is a 3D rendering engine written from scratch in pure C++, as an endeavour in understanding the process behind computer graphics."
+      description: "ClosedGL is a 3D rendering engine written from scratch in pure C++, as an endeavour in understanding the process behind modern computer graphics. The name is a pun on the Open Graphics Library (OpenGL)."
 
    },
    {
