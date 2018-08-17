@@ -2,7 +2,6 @@
    margin-top: 18em;
 }
 #maintext{
-   font-family: "Lato",serif;
    letter-spacing: 0.15em;
    font-weight: 700;
    font-size: 3em;
@@ -10,7 +9,7 @@
 
 #subtext{
     font-size: 1.3em;
-    font-family: "Libre Baskerville";
+    font-family: "Libre Baskerville",Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     font-weight: 700;
     margin-top: 0.1em;
 }
@@ -24,7 +23,7 @@
 
 .centreRibbon{
 	font-size: 1.1em;
-	font-family: "Libre Baskerville";
+	font-family: "Libre Baskerville",Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
    margin: 2em 0 16em 0;
 }
 .centreRibbon a{
@@ -109,7 +108,6 @@ transition:all .4s linear;
 }
 
 .gridLink{
-	font-family: "Lato";
 	text-decoration: none;
 	display:inline-block;
 	margin: auto;
@@ -157,7 +155,6 @@ transition:all .4s linear;
 
 .overlayContent{
 	height:80%;
-   font-family: "Lato";
 	overflow: hidden;
 }
 

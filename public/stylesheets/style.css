@@ -67,7 +67,6 @@ em{
     padding-right: 1.25em;
     max-width: 720px;
     padding-bottom: 1.25em;
-    font-family: "Libre Baskerville";
 }
 
 .lineBreak{
@@ -91,7 +90,6 @@ em{
 /*--------------FOOTER------------------------------------*/
 
 #footer{
-    background-color: #4f4f4f;
     background-color: black;
     color: white;
     padding-top: 1em;
