@@ -22,14 +22,17 @@
 }
 
 .centreRibbon{
-	font-size: 1.1em;
-	font-family: "Libre Baskerville",Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-   margin: 2em 0 16em 0;
+	font-size: 1.2em;
+	margin: 2em 0 16em 0;
 }
 .centreRibbon a{
+	font-weight: 700;
 	color: #4f4f4f;
 }
 
+.centreRibbon .social-icons {
+	font-size: 1.3em;
+}
 #introParagraph{
     margin: 0 15% 10em 15%;
 }
