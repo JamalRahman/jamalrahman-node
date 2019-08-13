@@ -3,6 +3,11 @@ var router = express.Router();
 
 var projects = [
    {
+      name: "Agent-Based Modelling of Traffic Evacuation Strategies",
+      link: "https://static.jamalrahman.co.uk/dissertation.pdf",
+      image: '../images/splash-diss.png'
+   },
+   {
       name: "ClosedGL",
       link: "https://jamalrahman.co.uk/ClosedGL",
       image: '../images/splash-swarm.png',
