@@ -11,7 +11,7 @@ var projects = [
    },
    {
       name: "Memescraper",
-      link: "https://blog.jamalrahman.co.uk/memescraper/",
+      link: "https://jamalrahman.co.uk/memescraper/",
       image: "../images/splash-memescraper.png",
       description:"Memescraper is the desktop application that mass-downloads reddit content.<br/>Choose your subreddit, choose how many images you want to download and go!"
 
