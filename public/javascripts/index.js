@@ -14,7 +14,7 @@ $(document).ready(function(){
 
         typeSubject.parent().append('<span class="cursor">|</span>');
 
-        text = "Computer Science & Software Development";
+        text = "Data Science & AI Development";
 
         type(typeSubject,text,0);
 
