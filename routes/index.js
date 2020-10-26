@@ -18,7 +18,7 @@ var projects = [
    {
       name: "Hybrid TFIDF",
       link: "https://github.com/jamalrahman/hybridtfidf",
-      image: '../images/splash-swarm.png',
+      image: '../images/splash-hybridtfidf.png',
       description: "A Python implementation of the Hybrid-TFIDF algorithm This is an implementation of the Hybrid TF-IDF algorithm as proposed by David Ionuye and Jugal K. Kalita (2011)."
    },
    {
@@ -31,7 +31,7 @@ var projects = [
    {
       name: "Find A Game - Recommendation",
       link: "https://github.com/JamalRahman/recommender",
-      image: "../images/splash-memescraper.png",
+      image: "../images/recc.png",
       description:"Video Game recommendation system & genre-exploration using vector embeddings"
 
    }
