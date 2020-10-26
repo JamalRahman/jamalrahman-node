@@ -18,7 +18,7 @@ var projects = [
    {
       name: "Hybrid TFIDF",
       link: "https://github.com/jamalrahman/hybridtfidf",
-      image: '../images/splash-hybridtfidf.png',
+      image: '../images/hybridtfidf.png',
       description: "A Python implementation of the Hybrid-TFIDF algorithm This is an implementation of the Hybrid TF-IDF algorithm as proposed by David Ionuye and Jugal K. Kalita (2011)."
    },
    {
