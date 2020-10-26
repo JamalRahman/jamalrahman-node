@@ -30,7 +30,7 @@ var projects = [
    },
    {
       name: "Find A Game - Recommendation",
-      link: "https://github.com/JamalRahman/recommender",
+      link: "http://jr-recommender.herokuapp.com/",
       image: "../images/recc.png",
       description:"Video Game recommendation system & genre-exploration using vector embeddings"
 
